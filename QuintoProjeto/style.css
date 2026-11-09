@@ -1,0 +1,82 @@
+
+/* Configurações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aparência do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #263b5e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Organização dos cartões */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+/* Cartões dos sites */
+.site {
+    background-color: white;
+    width: 200px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nome dos sites */
+.site h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Imagens */
+.site img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+/* Links */
+.site a {
+    display: block;
+    background-color: #263b5e;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Efeito ao passar o mouse */
+.site a:hover {
+    background-color: #4169a1;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #263b5e;
+    color: white;
+}

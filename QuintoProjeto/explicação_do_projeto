@@ -1,0 +1,14 @@
+QuintoProjeto
+│
+├── index.html
+├── style.css
+├── imagens/
+│   ├── youtube.png
+│   ├── github.png
+│   ├── google.png
+│   ├── quizlet.png
+│   └── wikipedia.png
+│
+└── capturas/
+    ├── codigo.png
+    └── pagina.png
