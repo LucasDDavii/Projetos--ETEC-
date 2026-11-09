@@ -1,0 +1,31 @@
+
+/* CSS Reset inspirado no modelo de Eric Meyer */
+
+/* Remove margens e espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o comportamento básico dos elementos */
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Remove os estilos padrão das listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove o sublinhado padrão dos links */
+a {
+    text-decoration: none;
+}
+
+/* Evita que imagens ultrapassem seus elementos */
+img {
+    max-width: 100%;
+    display: block;
+}
